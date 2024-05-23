@@ -24,6 +24,7 @@ class VibrationAnalyzer:
         self.notebook = ttk.Notebook(self.root)
         self.notebook.pack(expand=True, fill="both")
 
+
         # Input tab
         self.input_frame = tk.Frame(self.notebook)
         self.notebook.add(self.input_frame, text="Input")

@@ -33,9 +33,9 @@ def save_to_excel(data):
 
 if __name__ == "__main__":
     # Parameters for generating data
-    num_samples = 1000  # Number of samples
-    num_channels = 6    # Number of channels
-    sampling_frequency = 25000  # Sampling frequency in Hz
+    num_samples = 10000 # Number of samples
+    num_channels = 24    # Number of channels
+    sampling_frequency = 250  # Sampling frequency in Hz
 
     # Generate data
     df = generate_data(num_samples, num_channels, sampling_frequency)

@@ -32,8 +32,8 @@ def save_velocity_profile_to_excel(data):
 
 if __name__ == "__main__":
     # Parameters for generating velocity profile
-    num_samples = 1000  # Number of samples
-    sampling_frequency = 25000  # Sampling frequency in Hz
+    num_samples = 10000  # Number of samples
+    sampling_frequency = 250  # Sampling frequency in Hz
 
     # Ask user for maximum and minimum velocity range
     min_velocity = float(input("Enter the minimum velocity: "))
